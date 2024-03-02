@@ -69,7 +69,7 @@ if (isset($_GET['id'])) {
             </div>
         </div>
         <div class="flex flex-col justify-center items-center">
-            <p class="text-gray-700 font-semibold my-2">Terima kasih atas pesanannya di Amar Helmet! Pesananmu Akan Kami Proses Di 2-3 Hari Kerja dan Tim Kami Akan Menghubungi Ke Nomor Telepon Yang Kamu Berikan.</p>
+            <p class="text-gray-700 font-semibold my-2">Terima kasih atas pesanannya di Amar Helmet! Pesananmu Akan Kami Proses Di 2-3 Hari Kerja dan Tim Kami Akan Menghubungi Ke Nomor Telepon Yang Kamu Berikan Untuk No.Resi.</p>
 
             <p class="text-gray-500 text-sm font-bold mb-4">
                 (Catatan: Untuk Pengiriman Jabodetabek Dikenakan Biaya Rp 10.000 Untuk Layanan Pengiriman JNE/JNT)
