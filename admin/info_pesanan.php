@@ -1,3 +1,4 @@
+<!-- info_pesanan.php -->
 <?php
 require "../koneksi.php";
 
@@ -31,6 +32,7 @@ if (!$queryPesanan) {
                     <th class="border p-4">ID Pesanan</th>
                     <th class="border p-4">Nama Pemesan</th>
                     <th class="border p-4">Alamat Tujuan</th>
+                    <th class="border p-4">No Telepon</th>
                     <th class="border p-4">Note</th>
                     <th class="border p-4">Total Belanja</th>
                     <th class="border p-4">Waktu Pemesanan</th>
@@ -45,6 +47,7 @@ if (!$queryPesanan) {
                         <td class="border p-4"><?php echo $row['id_pesanan']; ?></td>
                         <td class="border p-4"><?php echo $row['nama_pemesan']; ?></td>
                         <td class="border p-4"><?php echo $row['alamat_tujuan']; ?></td>
+                        <td class="border p-4"><?php echo $row['no_telepon']; ?></td>
                         <td class="border p-4"><?php echo $row['note']; ?></td>
                         <td class="border p-4"><?php echo $row['total_belanja']; ?></td>
                         <td class="border p-4"><?php echo $row['waktu_pemesanan']; ?></td>
